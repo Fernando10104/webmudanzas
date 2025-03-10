@@ -28,7 +28,6 @@ nav a {
     text-decoration: none;
 }
 header {
-    background-color: #083572;
     color: white;
     padding: 15px;
     justify-content: center;
@@ -362,6 +361,14 @@ img {
         opacity: 0.69;  /* Opacidad de la imagen */
         z-index: 1;
     }
+    h1{
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 40px;
+        padding-bottom: 6px;
+        font-family: 'Raleway' , 'Open Sans';
+    }
+
     h2{
         font-weight: 900;
         font-size: 38px;
@@ -384,7 +391,7 @@ img {
     #inicio_texto {
         position: relative; /* Mantiene el texto por encima */
         z-index: 3; /* Se asegura de que esté sobre el fondo */
-        color: #083572;
+        color: rgba(51,51,51,51);
         text-align: center;
         text-decoration: solid;
         font-size: 32px;
@@ -436,7 +443,6 @@ img {
         
     }
 }
-
 
 
 
