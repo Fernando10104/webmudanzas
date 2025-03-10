@@ -201,6 +201,7 @@ img {
 
 #div_contactos{
     padding-left: 135px;
+    padding-right:55px;
     font-family: 'Open Sans';
     display: flex;
     justify-content: left;
