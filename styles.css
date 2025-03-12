@@ -154,8 +154,10 @@ img {
     width: max-content;
     margin-left: 0;
     margin-right: 0;
-    padding-top: 10px;
+    padding-right: 7px;
+    padding-top: 12px;
     padding-bottom: 10px;
+    width: fit-content; /* El ancho se ajustará al contenido */
 }
 
 #whatsapp:hover {
@@ -167,6 +169,11 @@ img {
     transform: scale(1.1);
 }
 
+#whatsapp img {
+    vertical-align: middle; /* Alinea la imagen al centro del texto */
+    
+    margin-left: 5px;
+}
 #imagenes_servicios {
     display: flex;
     flex-wrap: wrap;
