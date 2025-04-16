@@ -410,6 +410,12 @@ img {
         font-family:'Open Sans';
     }
 
+    #inicio_texto p {
+        padding-bottom: 6px;
+        
+        
+    }
+
 
     #servicios {
         width: 100%;
